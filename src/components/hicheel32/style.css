@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .click-area {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 70vh;
+    font-size: 100px;
+  }
+  .click-area:active {
+    background: rgb(45, 248, 253);
+    background: linear-gradient(
+      0deg,
+      rgba(45, 248, 253, 1) 0%,
+      rgba(62, 45, 253, 1) 73%
+    );
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  
+    margin-bottom: 10px;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  .orange {
+    background-color: orange;
+    
+  }
+  .green {
+    background-color: green;
+  }
+  .Display-box {
+    width: 30vw;
+    margin-inline-start: 2vw;
+    min-height: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .isplay-box h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  

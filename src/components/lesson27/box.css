@@ -1,0 +1,12 @@
+.blox{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,0 +1,11 @@
+.color{
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color button{
+    background-color: navy;
+    color: white;
+}

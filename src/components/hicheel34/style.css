@@ -1,0 +1,36 @@
+.container {
+    background-color: #eaf0f1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 120px;
+  }
+  
+  .tic-tac {
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .box {
+    background-color: #8b78e6;
+    width: 280px;
+    height: 280px;
+    border-radius: 16px;
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .box:hover {
+    background-color: #f3b431;
+    cursor: pointer;
+  }
